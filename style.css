@@ -1,0 +1,48 @@
+.games-wrapper {
+  margin-top: 50px;
+}
+
+.game-image-container {
+  width: 100%;
+  height: 200px;
+}
+
+.game-image-container.loader {
+  background-color: #868e96;
+}
+
+.game-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game {
+  cursor: pointer;
+}
+
+.genres {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.game-video {
+  width: 100%;
+  height: 100%;
+}
+
+.game-video[poster] {
+  object-fit: cover;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-search {
+  min-width: max-content;
+}
